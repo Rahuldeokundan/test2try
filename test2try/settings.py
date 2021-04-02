@@ -25,7 +25,7 @@ SECRET_KEY = 'lm1bmx&f1y3z1j+_b51r5u==6$caerbje3rjzli_j%e2ef&$2w'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://github.com/Rahuldeokundan/test2try']
+ALLOWED_HOSTS = ['https://test2try.azurewebsites.net/']
 
 
 # Application definition
