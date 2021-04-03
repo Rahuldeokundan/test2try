@@ -25,7 +25,7 @@ SECRET_KEY = 'lm1bmx&f1y3z1j+_b51r5u==6$caerbje3rjzli_j%e2ef&$2w'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://github.com/Rahuldeokundan/test2try']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -122,3 +122,9 @@ STATIC_URL = '/static/'
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR,"web", "static"),
+]
+
+STATIC_ROOT  = os.path.join(BASE_DIR, "static")
